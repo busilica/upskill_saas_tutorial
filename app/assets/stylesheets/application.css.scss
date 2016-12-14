@@ -47,6 +47,21 @@ h1, h2, h3 {
   }
 }
 
+.navbar-brand {
+  font-family: 'Aref Ruqaa', serif;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #516395;
+  }
+}
+
 //Home Page Styles 
 .home-callout {
   color: white;
@@ -54,3 +69,4 @@ h1, h2, h3 {
   padding-top: 50px;
   padding-bottom: 100px;
 }
+
